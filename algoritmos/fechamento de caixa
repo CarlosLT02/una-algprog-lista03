@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    
+  cadeia nome
+  real preco_unitario
+  inteiro quantidade
+  real valor_total
+
+escreva ("digite o nome do produto:")
+leia (nome)
+
+escreva ("digite preco unitario:")
+leia (preco_unitario)
+
+escreva ("digite quantidade_comprada:")
+leia (quantidade)
+
+valor_total = preco_unitario * quantidade
+
+escreva ("o produto",nome,"custou de total R$",valor_total )
+  }
+  }
